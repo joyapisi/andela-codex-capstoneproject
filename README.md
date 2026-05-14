@@ -51,7 +51,7 @@ npm run dev:backend
 ## Next Steps
 
 - **OpenAI:** Replace `mockAiService` with real profile summarization and translation calls.
-- **Whisper:** Add voice-to-text capture to help users describe experience in their preferred language.
+- **Whisper:** Add voice-to-text capture to help users describe their experience in their preferred language.
 - **Supabase:** Replace in-memory backend storage with authenticated row-level profile storage and sync metadata.
 - **Offline sync:** Add a service worker, background sync queue, and conflict-safe profile merge behavior.
 - **Secure sharing:** Add QR codes and expiring share links that expose only user-selected profile fields.
